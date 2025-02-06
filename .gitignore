@@ -1,0 +1,49 @@
+# Ignore project specific files
+input_*.json
+
+
+# Ignore IntelliJ IDEA project files and directories
+.idea/
+
+# Ignore build output directories
+out/
+target/
+
+# Ignore Maven-specific temporary files
+*.log
+*.tmp
+
+# Ignore user-specific files
+*.iml
+*.iws
+
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# Local Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files (in case Terraform crashes)
+crash.log
+
+# Ignore override files (personal settings that shouldn't be shared)
+*.tfvars
+*.tfvars.json
+
+# Ignore any generated plan files
+*.plan
+
+# Ignore local `.terraform` directories
+.terraform/
+.terraform.lock.hcl
+
+# Ignore sensitive files (like credentials), if created manually
+*credentials*.json
+
+# Logs or temporary files
+.terraformrc
+terraform.rc

@@ -1,0 +1,7 @@
+{
+  "keyPairName": "test",
+  "compartmentId": "ocid1.compartment.oc...",
+  "vaultId": "ocid1.vault.oc...",
+  "keyId": "ocid1.key.oc...",
+  "description": "Test keyPair description."
+}
