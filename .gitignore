@@ -1,5 +1,6 @@
 # Ignore project specific files
 input_*.json
+*.pem
 
 
 # Ignore IntelliJ IDEA project files and directories
