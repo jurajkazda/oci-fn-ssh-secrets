@@ -7,8 +7,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <fdk.version>1.0.198</fdk.version>
     </properties>
-    <groupId>sk.oracle.secrets.fn</groupId>
-    <artifactId>secrets-fn</artifactId>
+    <groupId>sk.oracle.usergroup.fn</groupId>
+    <artifactId>user-group-fn</artifactId>
     <version>1.0.0</version>
 
     <dependencyManagement>
@@ -70,6 +70,10 @@
 <!--        </dependency>-->
         <dependency>
             <groupId>com.oracle.oci.sdk</groupId>
+            <artifactId>oci-java-sdk-objectstorage</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.oci.sdk</groupId>
             <artifactId>oci-java-sdk-vault</artifactId>
         </dependency>
         <dependency>
@@ -79,6 +83,10 @@
         <dependency>
             <groupId>com.oracle.oci.sdk</groupId>
             <artifactId>oci-java-sdk-identity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.oci.sdk</groupId>
+            <artifactId>oci-java-sdk-identitydomains</artifactId>
         </dependency>
         <dependency>
             <groupId>com.oracle.oci.sdk</groupId>

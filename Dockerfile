@@ -10,4 +10,4 @@ RUN ["mvn", "package"]
 FROM fnproject/fn-java-fdk:jre17-1.0.198
 WORKDIR /function
 COPY --from=build-stage /function/target/*.jar /function/app/
-CMD ["sk.oracle.secrets.fn.SecretsFunction::handleRequest"]
+CMD ["sk.oracle.usergroup.fn.UserGroupFunction::handleRequest"]

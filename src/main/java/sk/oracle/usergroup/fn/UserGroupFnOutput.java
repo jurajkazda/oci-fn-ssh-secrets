@@ -1,13 +1,16 @@
-package sk.oracle.secrets.fn;
+package sk.oracle.usergroup.fn;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class SecretsFnOutput {
+public class UserGroupFnOutput {
     @JsonProperty("status")
     private String status;
 
     @JsonProperty("message")
     private String message;
+
+    @JsonProperty("userOcid")
+    private String userOcid;
 
     @JsonProperty("keyPairName")
     private String keyPairName;
@@ -90,5 +93,13 @@ public class SecretsFnOutput {
 
     public void setPublicKeySecretValue(String publicKeySecretValue) {
         this.publicKeySecretValue = publicKeySecretValue;
+    }
+
+    public String getUserOcid() {
+        return userOcid;
+    }
+
+    public void setUserOcid(String userOcid) {
+        this.userOcid = userOcid;
     }
 }
