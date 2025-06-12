@@ -33,7 +33,7 @@ public class UserGroupFnInput {
     @JsonProperty(value = "domainOcid", required = true)
     private String domainOcid;
 
-    @JsonProperty(value = "userName", required = true)
+    @JsonProperty(value = "userName")
     private String userName;
 
     @JsonProperty(value = "compartmentId", required = true)
